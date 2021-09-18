@@ -1,4 +1,4 @@
-apply plugin: 'java-library'
+apply plugin: 'groovy'
 
 repositories {
     google()
@@ -8,6 +8,10 @@ repositories {
 dependencies {
     implementation 'com.android.tools.build:gradle:7.0.2'
     implementation gradleApi()
+    implementation localGroovy()
+    implementation 'commons-io:commons-io:2.6'
+    implementation 'org.ow2.asm:asm:5.1'
+
 }
 
 java {

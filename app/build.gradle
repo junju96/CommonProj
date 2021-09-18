@@ -3,6 +3,8 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 
+//apply plugin: 'pluginsrc'     TODO: 编译问题
+
 android {
     compileSdk 30
 
