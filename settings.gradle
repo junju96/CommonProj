@@ -19,4 +19,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "CommonProj"
 include ':app'
-include ':annotationProcess'
